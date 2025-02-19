@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <style>
+        /* 在这里添加一些基本的CSS样式 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, aside, footer {
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            float: left;
+            width: 70%;
+        }
+        aside {
+            float: right;
+            width: 30%;
+        }
+        footer {
+            clear: both;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的个人博客</h1>
+        <p>分享我的技术和生活感悟</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我</a></li>
+            <li><a href="#">博客文章</a></li>
+            <li><a href="#">联系方式</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- 博客文章内容 -->
+        <article>
+            <h2>最新博客文章标题</h2>
+            <p>这里是博客文章的内容...</p>
+        </article>
+    </main>
+    <aside>
+        <!-- 侧边栏内容 -->
+        <h3>关于我</h3>
+        <p>这里是一些关于我的介绍...</p>
+    </aside>
+    <footer>
+        <p>版权所有 &copy; 2023 我的个人博客</p>
+    </footer>
+</body>
+</html>
